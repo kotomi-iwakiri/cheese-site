@@ -1,0 +1,434 @@
+/* ここから下に記載していく */
+.h1{
+  padding: 0%;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 21px;
+  align-items: center;
+  }
+
+ul.header_nav{
+  display: flex;
+}
+.header_nav li{
+  margin-left: 40px;
+}
+
+ 
+.mainvisual{
+background: url("../img/mainbg.png");
+height: 400px;
+background-size: cover;
+background-position: center;
+font-family: Helvetica ;
+}
+.mainvisual_title{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 160px;
+}
+.mainvisual_subtitile{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 30px;
+}
+.about{
+  margin: 50px;
+  line-height: 200%;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about_title{
+color:#ffd61a;
+font-size: 24px;
+}
+
+.about_subtitle{
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+p.mainvisual_subtitle {
+  padding-top: 20px;
+}
+p.about_text1 {
+  padding-top: 60px;
+}
+p.about_text2 {
+  padding-top: 40px;
+}
+p.about_text4 {
+  padding-top: 40px;
+}
+p.about_text5 {
+  padding-top: 40px;
+}
+
+.imgbox{
+  /* margin: 80px; */
+  display: flex;
+  text-align: center;
+  float: left; 
+}
+
+.imgbox p{
+  width: 25%;
+}
+.imgbox p img{
+  width: 100%;
+}
+/* 横並びスタート */
+
+.course{
+  margin: 50px 0;
+  line-height: 1.8;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.course_title{
+  color:black;
+  font-size: 24px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  }
+  /* 横並び１ */
+  .kenshu{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2.0;
+    width: 100%;
+    display: flex;
+  }
+  .kenshu p{
+    font-size: 24px;
+    padding-top: 120px;
+  }
+  .kenshu-text1{
+    padding-top: 40px;
+  }
+    .land{
+    width: 50%;
+    display: flex;
+     }
+   
+  .land img {
+      width: 641px;
+  }
+  .ab {
+    width: 641px;
+    background: ghostwhite;
+}
+/* 横並び２ */
+  .course2{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2.0;
+    width: 100%;
+    display: flex;
+  }
+  .course2 p{
+    font-size: 24px;
+    padding-top: 120px;
+  }
+  .course2-text{
+    padding-top: 40px;
+  }
+    .man{
+    width: 50%;
+    display: flex;
+     }
+   
+  .man img {
+      width: 641px;
+  }
+  .ab2 {
+    width: 641px;
+    background: ghostwhite;
+}
+
+/* 横並び３ */
+  .course3{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2.0;
+    width: 100%;
+    display: flex;
+  }
+  .course3 p{
+    font-size: 24px;
+    padding-top: 120px;
+  }
+  .course3-text{
+    padding-top: 40px;
+  }
+    .cheese{
+    width: 50%;
+    display: flex;
+     }
+   
+  .cheese img {
+      width: 641px;
+  }
+  .ab3 {
+    width: 641px;
+    background: ghostwhite;
+}
+/* ニュース */
+         .news{
+          margin: 50px 0;
+          line-height: 1.8;
+          text-align: center;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .news_title{
+          color:#ffd61a;
+          font-size: 24px;
+          padding-top: 150px;
+          margin-bottom: 20px;
+          }
+          .text7{
+            font-size: 24px;
+        
+          }
+          .newsul{
+            display: flex;
+            justify-content: space-between;
+            width: 960px;
+            margin: 0 auto;
+          }
+          .newslist_item{
+            width: 300px;
+          }
+    /* MOREボタン */
+    .btn{
+      text-align: center;
+      padding-top: 60px;
+    }
+    .btn-square {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      display: inline-block;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      background: #fdf90a;/*ボタン色*/
+      color: white;
+      border-bottom: solid 4px #627295;
+      border-radius: 3px;
+    }
+    .btn-square:hover {
+      /*ボタンを押したとき*/
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);/*下に動く*/
+      border-bottom: none;/*線を消す*/
+    }
+
+
+    /* MOREボタンここまで*/ 
+
+/* アクセス */
+.access{
+  margin: 50px 0;
+  line-height: 1.8;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.access_title{
+  color:#030303;
+  font-size: 24px;
+  padding-top: 150px;
+  }
+  .text8{
+    font-size: 24px;
+  }
+
+/* アクセスここまで */
+.map{
+text-align: center;
+width: 100% !important;
+padding-top: 30px;
+}
+.map iframe{
+  width: 100%;
+}
+/* 地図 */
+.contact{
+  margin: 50px 0;
+  line-height: 1.8;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact_title{
+  color:#030303;
+  font-size: 24px;
+  padding-top: 150px;
+  }
+  .text9{
+    font-size: 20px;
+
+  }
+  .top{
+    font-size: 18px;
+    padding-top: 30px;
+
+  }
+  .down{
+    font-size: 18px;
+    padding-top: 30px;
+
+  }
+
+  .formbox{
+    width: 550px;
+    /* text-align: center; */
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border:3px solid #030303; */
+    line-height: 2.5;
+  }
+
+    
+  .text{
+    padding: 12px;
+    outline: none;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 300px
+
+    }
+    input[type="text"] {
+      height: 25px;
+      width: 275px;
+  }
+    .name{
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+      height: 30px;
+      padding-bottom: 30px;
+    }
+    .name.dd{
+      width: 275px;
+    }
+
+    .kana{
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+      height: 30px;
+      padding-bottom: 30px;
+    }
+
+    .mail{
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+      height: 30px;
+      padding-bottom: 35px;
+    }
+
+    .cheese1{
+      /* display: flex;
+      justify-content: space-between; */
+      font-size: 18px;
+      height: 30px;
+      padding-bottom: 30px;
+    }
+    select {
+      height: 25px;
+      width: 550px;
+  }
+  .douki{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    height: 30px;
+    padding-top: 35px;
+  
+  }
+
+  .syosai{
+    /* display: flex;
+    justify-content: space-between; */
+    font-size: 18px;
+    height: 30px;
+    padding-bottom: 100px;
+  }
+
+ /* .area{
+   width: 550px;
+ } */
+
+ textarea {
+  width: 100%;
+}
+/* .shibou{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.selectradio {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .selectradio .selectradio-item {
+    margin: 5px 0;
+    padding: 0; }
+  .selectradio input[type="radio"] {
+    display: none; }
+  .selectradio input[type="radio"]:checked + label {
+    background: yellow;
+    color: #333333;
+    border: 2px solid orange; }
+  .selectradio .selectradio-label {
+    display: block;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    padding: 0 5px;
+    cursor: pointer;
+    color: #333333;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    background: whitesmoke;
+    transition: 0.5s;
+    border-radius: 4px; }
+
+.doukia_text{
+  padding-top: 35px;
+}
+  /* 送信ボタン */
+  .btn2{
+    text-align: center;
+    padding-top: 60px;
+  }
+  .btn-square2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #fdf90a;/*ボタン色*/
+    color: white;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+  }
+  .btn-square2:hover {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+
+.footer{
+  padding: 60px;
+  text-align: center
+}
+  /* 送信ボタンここまで*/ 
